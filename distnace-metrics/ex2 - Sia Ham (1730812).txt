@@ -1,0 +1,29 @@
+'''
+Sia Ham, 17308123
+Tuesday, February 19
+R. Vincent, instructor
+Assignment 2
+'''
+
+[Total number of board positions checked]
+1. Hamming distance:
+    puzzle4x4-01.txt -> 2
+    puzzle4x4-10.txt -> 39
+    puzzle4x4-16.txt -> 154
+    puzzle4x4-20.txt -> 2076
+    puzzle4x4-25.txt -> 59564
+2. Manhattan distance: 
+    puzzle4x4-01.txt -> 2
+    puzzle4x4-10.txt -> 17
+    puzzle4x4-16.txt -> 33
+    puzzle4x4-20.txt -> 33
+    puzzle4x4-25.txt -> 553
+
+
+observations:
+
+The total number of board positions checked when computing a solution 
+by Manhattan distance is smaller than the one by using Hamming distance 
+as the number of times the main loop executed was smaller. 
+Still, in both cases, the number of moves required increases 
+as the maximum number of items on the priority queue increases. 
